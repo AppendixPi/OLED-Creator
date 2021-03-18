@@ -6,7 +6,7 @@ It is also possible to import a monochrome .bmp Image, edit it and export the C 
 
 Note: the .bmp image to import must have a monochrome format and the size must be the one selected on the user interface otherwise you'll have an error.
 
-![](SS/OLED_Creator_beta_OHW.JPG)
+![](SS/OLED_Creator_beta_v2_0_OHW.JPG)
 
 The "Oled Creator beta.zip" file contains a folder with the software and libraries (you need to extract everything before execute the the .exe file) and a folder with some test files you can load into the software.
 
