@@ -1,10 +1,12 @@
 # OLED-Creator beta v2.0
 OLED Creator is a software tool which helps to generate the pixel map in C code for SSD1306 driver
 
-The OLED Creator is a simple tool that allows you to draw what you want and generate the code compatible to any monochrome oled display with a SSD1306 driver or similar.
+The OLED Creator is a simple tool that allows you to draw what you want and generate the code compatible to any monochrome oled display.
 It is also possible to import a monochrome .bmp Image, edit it and export the C code of it.
 
 Note: the .bmp image to import must have a monochrome format and the size must be the one selected on the user interface otherwise you'll have an error.
+
+Depending on the display controller you have to set the correct byte paging and encoding, for example for SSD1306 controller and adafruit arduino library you have to set Horizontal paging  and Little Endian encoding. 
 
 ![](SS/OLED_Creator_beta_v2_0_OHW.JPG)
 
