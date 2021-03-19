@@ -16,4 +16,4 @@ Depending on the display controller you need to set the correct byte paging and 
 
 The "Oled Creator beta.zip" file contains a folder with the software and libraries (you need to extract everything before execute the the .exe file) and a folder with some test files you can load into the software.
 
-I developed the software with Qt Creator, so the executable "Oled_Creator.exe" needs all the Qt libraries included in the "resources_beta_v1.0" folder. 
+I developed the software with Qt Creator, so the executable "Oled_Creator.exe" needs all the Qt libraries included in the "resources_beta_v2.0" folder. 
