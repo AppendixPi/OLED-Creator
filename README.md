@@ -8,7 +8,7 @@ It is also possible to import a monochrome .bmp Image, edit it and export the C 
 
 Note: the .bmp image to import must have a monochrome format and the size must be the one selected on the user interface otherwise you'll have an error.
 
-Depending on the display controller you have to set the correct byte paging and encoding, for example for SSD1306 controller and adafruit arduino library you have to set Horizontal paging  and Little Endian encoding. 
+Depending on the display controller you need to set the correct byte paging and encoding, for example for SSD1306 controller and adafruit arduino library you have to set Horizontal paging and Little Endian encoding. 
 
 ![](SS/OLED_byte_paging.JPG)
 
