@@ -8,9 +8,11 @@ It is also possible to import a monochrome .bmp Image, edit it and export the C 
 
 Note: the .bmp image to import must have a monochrome format and the size must be the one selected on the user interface otherwise you'll have an error.
 
-Depending on the display controller you need to set the correct byte paging and encoding, for example for SSD1306 controller and adafruit arduino library you have to set Horizontal paging and Little Endian encoding. 
+Depending on the display controller you need to set the correct byte paging and encoding, for example for SSD1306 controller and adafruit arduino library you have to set Horizontal paging and MSB encoding. 
 
 ![](SS/OLED_byte_paging.JPG)
+
+![](SS/LSB_MSB.JPG)
 
 The "Oled Creator beta.zip" file contains a folder with the software and libraries (you need to extract everything before execute the the .exe file) and a folder with some test files you can load into the software.
 
